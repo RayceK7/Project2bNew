@@ -186,11 +186,11 @@ def compare_results() :
     if merge[ "time"] <quick["time"]:
         faster =  "Merge Sort"  
     else : 
-         "Quick Sort"
+         faster = "Quick Sort"
     if merge[ "comparisons"] <quick["comparisons"]:
         fewer = "Merge Sort"  
     else:
-        "Quick Sort"
+        fewer = "Quick Sort"
     print(f"Faster algorithm: {faster}" )
     print(f"Fewer comparisons: {fewer}")
     print("\nNote: Memory is peak Python-traced allocation during each run.")
